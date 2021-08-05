@@ -7,12 +7,12 @@ Website Template
    6. create header, main and footer
    7. style elements
 
-   Display Products
+Display Products
    1. create products div
    2. add product attributes
    3. add link, image, name and price
 
-   Create React App
+Create React App
    1. npx create-react-app frontend
    2. npm start
    3. Remove unused files
@@ -20,7 +20,7 @@ Website Template
    5. copy style.css content to index.css
    6. replace class with className
 
-   Share Code On Github
+Share Code On Github
    1. Initialize git repository
    2. Commit changes
    3. Create github account
@@ -28,9 +28,32 @@ Website Template
    5. connect local repo to github repo
    6. push changes to github
 
-   Create Rating and Product Component
+Create Rating and Product Component
    1. create components/Rating.js
    2. create div.rating
    3. style div.rating, span and last span
    4. Create Product component
    5. Use Rating component
+
+Build Product Screen
+   1. Install react-router-dom
+   2. Use BrowserRouter and Route for Home Screen
+   3. Create HomeScreen.js
+   4. Add product list code there
+   5. Create ProductScreen.js
+   6. Add new Route from product details to App.js
+   7. Create 3 columns for product image, info and action
+
+Create Node.JS Server
+   1. run npm init in root folder
+   2. Update package.json set type: module
+   3. Add .js to imports
+   4. npm install express
+   5. create server.js
+   6. add start command as node backend/server.js
+   7. require express
+   8. create route for / return backend is ready.
+   9. move products.js from frontend to backend
+   10. create route for /api/products
+   11. return products
+   12. run npm start
