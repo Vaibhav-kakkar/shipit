@@ -69,3 +69,9 @@ Load Products From Backend
     8. create Loading Component
     9. create Message Box Component
     10. use them in HomeScreen
+
+Add Redux to Product Screen
+    1. create product details constants, actions and reducers
+    2. add reducer to store.js
+    3. use action in ProductScreen.js
+    4. add /api/product/:id to backend api
