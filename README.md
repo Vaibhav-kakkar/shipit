@@ -75,3 +75,7 @@ Add Redux to Product Screen
     2. add reducer to store.js
     3. use action in ProductScreen.js
     4. add /api/product/:id to backend api
+
+Handle Add To Cart Button
+    1. Handle Add To Cart in ProductScreen.js
+    2. create CartScreen.js
