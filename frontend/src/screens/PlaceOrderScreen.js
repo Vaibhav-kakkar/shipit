@@ -18,7 +18,7 @@ export default function PlaceOrderScreen(props) {
 
     cart.shippingPrice = cart.itemsPrice > 100 ? toPrice(0) : toPrice(10);
     cart.taxPrice = toPrice(0.15 * cart.itemsPrice);
-    cart.totalPrice = cart.itemsPrice + cart.shippingAddress + cart.taxPrice;
+    cart.totalPrice = cart.itemsPrice + cart.shippingPrice + cart.taxPrice;
 
     const placeOrderHandler = () => {
 
@@ -115,9 +115,9 @@ export default function PlaceOrderScreen(props) {
                                             <div>
                                             <strong>Total</strong>
                                             </div>
-                                        <div>                               <strong>
-                                        ${cart.totalPrice.toFixed(2)} 
-                                            </strong>
+                                        <div>  
+                                        <strong>                              ${cart.totalPrice} 
+                                        </strong>
                                         </div>
                                     </div>
                                 </li>
