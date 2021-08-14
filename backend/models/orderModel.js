@@ -47,6 +47,7 @@ const orderSchema = new mongoose.Schema({
             type: String,
             required: true
         },
+    },
         paymentMethod: {
             type: String,
             required: true
@@ -85,11 +86,12 @@ const orderSchema = new mongoose.Schema({
         },
         deliveredAt: {
             type: Date
-        }
-    }
-},{
+        },
+    },
+    {
     timestamps: true
-});
+    }
+);
 
 const Order = mongoose.model('Order', orderSchema);
 export default Order;
