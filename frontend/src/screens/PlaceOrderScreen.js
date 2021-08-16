@@ -107,7 +107,7 @@ export default function PlaceOrderScreen(props) {
                         <div className="card card-body">
                             <ul>
                                 <li>
-                                    <h2>Order Sumarry</h2>
+                                    <h2>Order Summary</h2>
 
                                 </li>
                                 <li>
@@ -131,10 +131,10 @@ export default function PlaceOrderScreen(props) {
                                 <li>
                                     <div className="row">
                                             <div>
-                                            <strong>Total</strong>
+                                            <strong>Order Total</strong>
                                             </div>
                                         <div>  
-                                        <strong>                              ${cart.totalPrice} 
+                                        <strong>                              ${cart.totalPrice.toFixed(2)} 
                                         </strong>
                                         </div>
                                     </div>
