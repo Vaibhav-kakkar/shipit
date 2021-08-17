@@ -202,3 +202,12 @@ Display Orders History
 Display User Profile
     1. create user details api
     2. show user information
+
+Update User Profile
+    1. create user update api
+    2. update user info
+
+Create Admin View
+    1. Create Admin Menu
+    2. Create Admin Middleware in Backend
+    3. Create Admin Route in Frontend
